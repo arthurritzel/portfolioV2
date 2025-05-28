@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/AR-BLACK.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Arthur Ritzel - Desenvolvedor Full Stack</title>
+    <meta name="description" content="Portfólio de Arthur Ritzel - Desenvolvedor Full Stack especializado em React, Node.js e tecnologias modernas." />
+    <meta name="keywords" content="desenvolvedor, full stack, react, nodejs, javascript, portfolio" />
+    <meta name="author" content="Arthur Ritzel" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arthurritzel.github.io/portifolio/" />
+    <meta property="og:title" content="Arthur Ritzel - Desenvolvedor Full Stack" />
+    <meta property="og:description" content="Portfólio de Arthur Ritzel - Desenvolvedor Full Stack especializado em React, Node.js e tecnologias modernas." />
+    <meta property="og:image" content="https://arthurritzel.github.io/portifolio/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://arthurritzel.github.io/portifolio/" />
+    <meta property="twitter:title" content="Arthur Ritzel - Desenvolvedor Full Stack" />
+    <meta property="twitter:description" content="Portfólio de Arthur Ritzel - Desenvolvedor Full Stack especializado em React, Node.js e tecnologias modernas." />
+    <meta property="twitter:image" content="https://arthurritzel.github.io/portifolio/og-image.png" />
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              'sans': ['Inter', 'system-ui', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s ease-out',
+              'fade-in': 'fadeIn 0.6s ease-out',
+              'slide-in-left': 'slideInLeft 0.6s ease-out',
+              'slide-in-right': 'slideInRight 0.6s ease-out',
+            },
+            transitionDuration: {
+              '300': '300ms',
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'sans': ['Inter', 'system-ui', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s ease-out',
+              'fade-in': 'fadeIn 0.6s ease-out',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
