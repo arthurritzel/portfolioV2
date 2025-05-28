@@ -4,7 +4,7 @@ Este é o portfólio pessoal do Arthur Ritzel, desenvolvido com React e Vite. O 
 
 ## 🚀 Tecnologias Utilizadas
 
-- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **React 19** - Biblioteca JavaScript para construção de interfaces
 - **Vite** - Build tool rápida e moderna
 - **Framer Motion** - Biblioteca para animações
 - **Tailwind CSS** - Framework CSS utilitário
@@ -87,43 +87,6 @@ npm run build
 
 2. A pasta `dist` conterá os arquivos para produção
 
-## 🎨 Customização
-
-### Alterando Dados Pessoais
-
-Edite o objeto `portfolioData` em `src/App.jsx`:
-
-```javascript
-const portfolioData = {
-  hero: {
-    name: "Seu Nome",
-    title: "Seu Título",
-    description: "Sua descrição",
-    avatar: "url-da-sua-foto"
-  },
-  // ... outros dados
-};
-```
-
-### Adicionando Novos Projetos
-
-Adicione novos projetos no array `projects`:
-
-```javascript
-{
-  id: 4,
-  title: "Nome do Projeto",
-  description: "Descrição do projeto",
-  image: "url-da-imagem",
-  technologies: ["React", "Node.js"],
-  github: "link-github",
-  demo: "link-demo"
-}
-```
-
-### Customizando Cores
-
-As cores principais podem ser alteradas no arquivo `tailwind.config.js` ou diretamente nas classes CSS.
 
 ## 📱 Responsividade
 
@@ -132,46 +95,6 @@ O portfólio é totalmente responsivo e otimizado para:
 - 📱 Tablet (768px+)
 - 💻 Desktop (1024px+)
 - 🖥️ Large Desktop (1280px+)
-
-## 🔧 Integração com Sanity (Opcional)
-
-Para integrar com o Sanity CMS:
-
-1. Instale o cliente do Sanity:
-```bash
-npm install @sanity/client
-```
-
-2. Configure o cliente:
-```javascript
-import {createClient} from '@sanity/client'
-
-const client = createClient({
-  projectId: 'seu-project-id',
-  dataset: 'production',
-  useCdn: true,
-  apiVersion: '2023-01-01',
-})
-```
-
-3. Substitua os dados estáticos por chamadas à API do Sanity
-
-## 🐛 Problemas Conhecidos
-
-- Formulário de contato precisa de backend para funcionar completamente
-- Imagens são placeholders e devem ser substituídas por imagens reais
-
-## 🤝 Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 📧 Contato
 
