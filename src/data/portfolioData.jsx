@@ -2,7 +2,7 @@ export const portfolioData = {
   hero: {
     name: "Arthur Ritzel",
     title: "Desenvolvedor Full Stack",
-    description: "Desenvolvedor apaixonado por tecnologia, especializado em criar soluções web modernas e eficientes.",
+    description: "Desenvolvedor apaixonado por tecnologia, especializado em criar soluções modernas e eficientes.",
   },
   about: {
     description: `Meu nome é Arthur Burkhard Ritzel, tenho ${new Date().getFullYear() - new Date('2005-02-18').getFullYear()} anos e sou um entusiasta apaixonado por tecnologia. Atualmente, curso Engenharia de Software, onde venho desenvolvendo meu raciocínio lógico e minha capacidade de resolver problemas. Tenho facilidade de aprendizado e estou sempre em busca de novos conhecimentos. Gosto de explorar diferentes áreas, como automação residencial e impressão 3D, sempre movido pela curiosidade e pelo desejo de criar soluções que façam a diferença. Acredito que a tecnologia é uma ferramenta poderosa para transformar o mundo, e estou determinado a contribuir com inovação e criatividade.`,
